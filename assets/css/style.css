@@ -327,6 +327,7 @@
   }
   
   .foto {
+    border-radius: inherit;
     position: relative;
      width: 450px;
      height: 450px;
@@ -668,8 +669,7 @@
     /**
      * PORTFOLIO
      */
-  
-    .portfolio-list li:nth-child(even) .card-content { margin-inline-start: 50%; }
+   .portfolio-list li:nth-child(even) .card-content { margin-inline-start: 50%; }
   
   }
   
